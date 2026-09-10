@@ -1,0 +1,17 @@
+@baseUrl = http://localhost:8080
+@contactId = 6aa31b006e00beeb86a16186
+
+### Get all contacts
+GET {{baseUrl}}/contacts
+
+### Get one existing contact
+GET {{baseUrl}}/contacts/single?id={{contactId}}
+
+### Reject an invalid ID
+GET {{baseUrl}}/contacts/single?id=abc
+
+### Reject a missing ID
+GET {{baseUrl}}/contacts/single
+
+### Return not found for a nonexistent ID
+GET {{baseUrl}}/contacts/single?id=000000000000000000000000
