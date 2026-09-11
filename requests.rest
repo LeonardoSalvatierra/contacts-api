@@ -1,4 +1,4 @@
-@baseUrl = https://leosalvat-contacts-api.onrender.com/
+@baseUrl = https://leosalvat-contacts-api.onrender.com
 @contactId = 6aa31b006e00beeb86a16186
 
 ### Get all contacts
